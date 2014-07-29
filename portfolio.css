@@ -1,0 +1,37 @@
+h1{
+	margin:1.5em auto;
+	display:block;
+	width:40em;
+	text-align:center;
+	font-family:ariel;
+}
+p,h2{
+	font-size:20px;
+	margin:2em;
+}
+.tright,.bright{
+	float:right;
+    margin-right:2em;
+}
+.tright li,.bright li{
+	display:inline-block;
+	padding:2px;
+}
+.big{
+	clear:both;
+	margin:3em auto;
+	display:block;
+	width:20em;
+	font-size:28px;
+	text-align:center;
+}
+.address{
+	font-size:16px;
+	font-style:italic;
+}
+.bleft li{
+	  list-style:square;
+}
+li a{
+	text-decoration:none;
+}
