@@ -1,8 +1,5 @@
 h1{
-	margin:1.5em auto;
-	display:block;
-	width:40em;
-	text-align:center;
+    text-align:center;
 	font-family:ariel;
 }
 p,h3{
@@ -65,12 +62,14 @@ p{
 article{
 	margin:0 auto;
 	display:block;
-	width:50em;
-	/*margin-left:25%;*/
+	
 }
 article h3{
-	margin-left:0px;
+	margin-left:2em;
 }
 *{
 	outline:0px solid blue;
+}
+#mapcontainer{
+	margin: 0 auto;
 }
