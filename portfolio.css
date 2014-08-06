@@ -73,3 +73,8 @@ article h3{
 #mapcontainer{
 	margin: 0 auto;
 }
+@media screen and (max-width:800px){
+	#mapcontainer {
+		display:none;
+	}
+}
