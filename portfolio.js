@@ -83,12 +83,4 @@ $(document).ready(function(){
       	       title:"You are here!"
             });
         }
-        /*It's just another way of calling the
-         function, save for future reference*/
-        if (navigator.geolocation) {
-  	       navigator.geolocation.getCurrentPosition(success);
-        } 
-        else {
-  	       error('Geo Location is not supported');
-        }
 });
