@@ -48,7 +48,7 @@ $(document).ready(function(){
 
      })  
 	.fail(function(jqXHR, error, errorThrown){
-		alert("Google map is not available.");
+		$('article').append('<h4>Google map is currently unavailable.</h4>');
      });
 
      /* Created a container div for the map,
